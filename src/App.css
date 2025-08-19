@@ -1,0 +1,78 @@
+/* App.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928DAB);
+  color: #fff;
+}
+
+/* Main container */
+div {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+}
+
+/* Stopwatch title */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Start button */
+button:nth-of-type(1) {
+  background: #4caf50;
+  color: #fff;
+}
+button:nth-of-type(1):hover {
+  background: #43a047;
+  transform: scale(1.05);
+}
+
+/* Stop button */
+button:nth-of-type(2) {
+  background: #f44336;
+  color: #fff;
+}
+button:nth-of-type(2):hover {
+  background: #e53935;
+  transform: scale(1.05);
+}
+
+/* Reset button */
+button:nth-of-type(3) {
+  background: #2196f3;
+  color: #fff;
+}
+button:nth-of-type(3):hover {
+  background: #1e88e5;
+  transform: scale(1.05);
+}
